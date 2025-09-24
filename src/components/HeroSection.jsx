@@ -15,14 +15,14 @@ const HeroSection = () => {
                 </h1>
 
                 <div className="text-muted-foreground text-lg md:text-2xl mx-auto opacity-0 animate-fade-in-delay-4">
-                    <span className="flex justify-end">
+                    <span className="flex justify-end font-mono">
                         <ArrowDownRight className="h-9 w-15" />
-                        Fullstack Developer
+                       A Fullstack Developer
                     </span>
                 </div>
 
                 <div className="flex justify-start">
-                    <a href="projects" className="cosmic-button opacity-0 animate-fade-in-delay-4">
+                    <a href="#projects" className="cosmic-button opacity-0 animate-fade-in-delay-4">
                         View My Work
                     </a>
                 </div>
