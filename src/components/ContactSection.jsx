@@ -3,7 +3,7 @@ import { cn } from '../lib/utils'
 
 const ContactSection = () => {
   return (
-    <section className='py-24 px-4 relative bg-secondary/30'>
+    <section id='contact' className='py-24 px-4 relative bg-secondary/30'>
         <div className='conatiner mx-auto max-w-5xl'>
             <h2 className="font-bold text-3xl md:text-4xl mb-12 text-center">
                 Get In <span className='text-primary'>Touch</span>

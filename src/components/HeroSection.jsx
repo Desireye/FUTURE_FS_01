@@ -21,16 +21,12 @@ const HeroSection = () => {
                     </span>
                 </div>
 
-                <div>
+                <div className="flex justify-start">
                     <a href="projects" className="cosmic-button opacity-0 animate-fade-in-delay-4">
                         View My Work
                     </a>
                 </div>
             </div>
-       </div>
-
-       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-            Scroll
        </div>
     </section>
   )
